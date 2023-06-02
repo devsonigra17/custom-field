@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Api/etc/custom_attributes.xsd">
+    <custom_attributes for="Magento\Quote\Api\Data\AddressInterface">
+        <attribute code="drop_down" type="string"/>
+    </custom_attributes>
+    <custom_attributes for="Magento\Sales\Api\Data\OrderAddressInterface">
+        <attribute code="drop_down" type="string"/>
+    </custom_attributes>
+</config>
